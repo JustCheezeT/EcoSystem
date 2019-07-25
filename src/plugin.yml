@@ -1,0 +1,28 @@
+name: EcoSystem
+main: net.minecraftvn.InfiGamez.Main
+version: 1.0
+load: STARTUP
+depend: [Vault]
+softdepend: [TitleManager]
+commands:
+    bank:
+        description: lul
+permissions:
+    EcoSystem.use:
+        description: Cho phép sử dụng sign của plugin
+        default: true
+    EcoSystem.admin:
+        description: Cho phép tạo và bỏ sign của plugin
+        default: op
+    EcoSystem.cmd.balance:
+        description: Kiểm tra số dư
+        default: op
+    EcoSystem.cmd.deposit:
+        description: Gửi tiền vào ngân hàng
+        default: op
+    EcoSystem.cmd.withdraw:
+        description: Rút tiền từ ngân hàng
+        default: op
+    EcoSystem.cmd.interest:
+        description: Kiểm tra số thời gian còn lại khi đến lần gửi tiền lãi tiếp
+        default: op

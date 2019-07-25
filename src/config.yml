@@ -1,0 +1,67 @@
+database:
+    #File or MySQL
+    typeOfDatabase: FlatFile
+    #Chi tiết kết nối MySQL
+    mysql:
+        host: 127.0.0.1
+        port: 3306
+        databaseName: 'mydatabase'
+        tableName: 'accounts'
+        user: 'admin'
+        password: 'lul123'
+        ssl: false
+
+general: 
+    #Số tiền tối đa mỗi tài khoản
+    maxBankLimitMoney: 10000000
+    #Số tiền tối đa mỗi người chơi có
+    maxPocketLimitMoney: 10000000
+    #Tương tác sign (tính theo mili giây)
+    timeBetweenTwoInteractions: 1000
+    interest:
+        #Lợi nhuận cho tài khoản ngân hàng
+        enabled: false
+        #Lãi xuất
+        percentageAmount: 0.5%
+        #Số phút giữa các lần nhận lãi
+        interestTime: 5
+
+chatMessages:
+    prefix: '&3&l[Eco System] '
+    createdSignSuccessfully: '&bTạo sign thành công!'
+    notAllowed: '&bBạn không có quyền để thực hiện.'
+    removedSignSuccessfully: '&bĐã bỏ sign!'
+    errorWhileCreatingSign: '&bKhông thể tạo sign!'
+    balance: '&b%player2:&7 $%balance'
+    depositedSuccessfully: '&bĐã gửi &7$%amount &bthành công!'
+    reachedMaximumMoneyInAccount: '&bĐã đạt giới hạn tài khoản ngân hàng!'
+    notEnoughMoneyInPoket: '&bBạn không có đủ tiền. Số dư: &7$%amount&b!'
+    withdrewSuccessfully: '&bĐã nhận lại &7$%amount &bthành công!'
+    reachedMaximumMoneyInPocket: '&bĐã đạt giới hạn tiền.'
+    notEnoughMoneyInAccount: '&bKhông có đủ tiền trong tài khoản ngân hoàng! Số dư:&7$%amount'
+    accountDoesNotExist: '&7%player2 &bkhông có tài khoản ngân hàng!'
+    tooFastInteraction: '&bBạn không thể tương tác quá nhanh. Hãy từ từ lại :v'
+    denyIfSneaking: '&bBạn không thể sử dụng sign nếu bạn đang ngồi.'
+    noPermission: '&bBạn không có quyền.'
+    reloadFail: '&bKhông thể tải lại config!'
+    reloadComplete: '&bĐã tải lại config!'
+    balanceCommand: '&bSố dư của &7%player2 &b: &7$%amount'
+    balanceCommandFail: '&bNgười chơi Offline hoặc UUID sai!'
+    setCommandFail: '&bSố tiền phải là một số!'
+    setCommand: '&bSố dư của &7%player2 &bđã được đặt thành: &7$%amount'
+    interest: '&bĐã nhận: &7$%amount'
+    interestCommand: '&bTiền lãi có tiếp trong:&7 %time'
+    interestDisabled: '&cĐã vô hiệu hóa lợi nhuận!'
+    
+#Cần ActionBar
+actionBarMessages:
+    balanceLeft: '&3&lSố dư ngân hàng: &7$%bankBalance &f| &3&lSố dư trong túi: &7$%pocketBalance'
+    balance: '&3&lSố dư ngân hàng: &7$%bankBalance'
+
+signFormat:
+    #Thay đổi các từ trên sign
+    balance: Balance
+    deposit: Deposit
+    withdraw: Withdraw
+    #Code màu cho dòng đầu. VD: signColor:3 = &3
+    signColor: 3

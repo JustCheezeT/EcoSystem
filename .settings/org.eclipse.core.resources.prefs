@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/net/minecraftvn/InfiGamez/CommandHandler.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/ConfigHandler.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/InterestHandler.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/Main.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/PlayerListener.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/commands/BalanceCmd.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/commands/DepositCmd.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/commands/InterestCmd.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/commands/ReloadCmd.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/commands/SetCmd.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/commands/WithdrawCmd.java=UTF-8
+encoding//src/net/minecraftvn/InfiGamez/database/MoneyFlatFileInterface.java=UTF-8
+encoding//src/plugin.yml=UTF-8
